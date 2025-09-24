@@ -1,0 +1,29 @@
+{
+  "name": "vulnersearch-ai-advanced",
+  "version": "2.0.0",
+  "description": "Advanced AI-Powered Bug Hunting Tool with GitHub Integration",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "archiver": "^6.0.1",
+    "unzipper": "^0.10.14",
+    "child_process": "^1.0.2",
+    "os": "^0.1.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "nodemon": "^3.0.2"
+  }
+}
